@@ -2,9 +2,10 @@ body {
 	 background-color: lightblue;
 	margin: 0 auto;
 	width: 960px;
-	font: 14px/20px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	font: 14px/20px 'PusabRegular', 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 	padding: 50px;
+
 	}
 	
 header, footer, section, nav, main, div, aside{
@@ -79,7 +80,7 @@ p.advocacy{
 	background-color: #B4E3EC;
 	padding: 20px;
 }
-	
+
 
 header, footer {
     padding: 10px;
@@ -92,6 +93,7 @@ header, footer {
 #wrapper {
 background: #BB9B8E;
 padding: 20px 20px 20px 20px;
+
 -webkit-box-shadow: 3px 3px 7px #777;
 -moz-box-shadow: 3px 3px 7px #777;
 }
@@ -110,6 +112,7 @@ margin: 0 0 18px 0;
 width: 700px;
 font-size: 30px;
 line-height: 36px;
+
 }
 header h3 {
 color: #777;
@@ -149,6 +152,12 @@ div {
 	width: 100%;
 	
 	
+}
+
+.mem{
+	 text-align: center;
+  font-size: 11px;
+  padding-right: 20px;
 }
 
 

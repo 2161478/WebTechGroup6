@@ -7,7 +7,7 @@ body {
 	padding: 50px;
 	}
 	
-header, footer, section, nav, main, div {
+header, footer, section, nav, main, div, aside{
 	display: block;
 	padding: 20px;
 	/* curved border radius */
@@ -62,7 +62,6 @@ h1 {
 
 h2 {
 	font-size: 28px;
-	background-color: #B4E3EC;
 	padding-left: 20px;
 	margin-top: 20px;
 /* curved border radius */
@@ -90,11 +89,45 @@ header, footer {
 	
 }
 
-header{
-	background-color: black;
-    text-align: center;
-    padding: 10px;
+#wrapper {
+background: #BB9B8E;
+padding: 20px 20px 20px 20px;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
 }
+
+header img {
+clear: both;
+display: block;
+height: 200px;
+width: 100%;
+padding: 10px 0 0 0;
+}
+
+header h1 {
+float: left;
+margin: 0 0 18px 0;
+width: 700px;
+font-size: 30px;
+line-height: 36px;
+}
+header h3 {
+color: #777;
+clear: right;
+float: right;
+font-style: italic;
+margin: 14px 0 18px 0;
+width: 220px;
+text-shadow: 0px 2px 3px #602C17;
+}
+
+
+header{
+	margin-top: 20px;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
 
 section {
     margin: 25px;
@@ -109,11 +142,15 @@ main {
 }
 
 div {
+	
     margin: 5px;
     padding: 1px;
     background-color: pink;
 	width: 100%;
+	
+	
 }
+
 
 
 
@@ -123,40 +160,61 @@ footer {
 	background: #222;
 	width: 960px;
 	color: #fff;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	
 	/* curved border radius */
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	}
+	
 
 footer p {
   text-align: center;
   font-size: 11px;
-	padding-right: 20px;
+  padding-right: 20px;
 	}
+	
+footer h3{
+	
+}
+
+footer div{
+	display: inline-block;
+  width: 30%;
+  text-align: center;
+  font-size: 11px;
+  background-color: gray;
+  padding: 5px;
+  
+}
+
+div.def{
+	margin: 15px;
+    padding: 20px 0 0 0 ;
+    background-color: gray;
+	width: 100%;
+}
 
 .left{
-	position: absolute;
-	left: 10px;
-	width: 32%;
-	border: 5px;
-	padding: 10px; 
+	float: left;
+    width: 28%;
+    padding: 5px;
 }
 
 .right{
-	position: absolute;
-	right: 10px;
-	width: 32%;
-	border: 5px;
-	padding: 10px; 
+	float: left;
+    width: 28%;
+    padding: 5px;
 }
 
 .center{
-	margin: auto;
-	width: 32%;
-	border: 5px;
-	padding: 10px; 
+	float: left;
+    width: 28%;
+    padding: 5px;
+
+
+}
+	
 }
 
 

@@ -54,9 +54,9 @@ header h3 {
 
 }
 
-nav{
+nav {
 	background-image: linear-gradient(hsla(89, 43%, 51%, 0.3), pink);
-	padding; 0;
+	padding: 0;
 }
 
 nav ul {
@@ -167,7 +167,7 @@ div .advocacy{
 }
 
 .advocacy{
-	position: center;
+	text-align: center;
 }
 
 

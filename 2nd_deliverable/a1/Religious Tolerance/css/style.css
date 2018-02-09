@@ -84,7 +84,7 @@ nav li a {
 }
 
 nav li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #000;
 }
 
 nav a.active {
@@ -95,7 +95,13 @@ main {
     margin: 5px;
     padding: 10px;
     background-color: white;
+    font-family: 'arial black';
+    font-size: 13.5px;
+
+
+
 }
+
 
 main img{
 	border: none;
@@ -188,3 +194,26 @@ section{
 	-webkit-box-shadow: 3px 3px 7px #777;
 	-moz-box-shadow: 3px 3px 7px #777;
 }
+
+
+	section:hover {
+	background-image: repeating-linear-gradient(lightgreen,lightyellow,white,lightblue);
+	background-color:hsl(0, 100%, 90%);
+	padding: 30px 30px 30px 30px;
+	margin-left: 40px;
+    margin-right: 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+.emphasize {
+	font-family: 'Calligraphic';
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: bold;
+	text-align: center;
+}
+
+

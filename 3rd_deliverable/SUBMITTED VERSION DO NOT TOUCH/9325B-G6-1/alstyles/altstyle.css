@@ -1,0 +1,257 @@
+body{
+	
+	background-image: url("../images/original.gif");
+	background-color: repeating-linear-gradient(lightblue, pink)
+	margin: 0 auto;
+	width: 960px;
+	font: 14px/20px 'PusabRegular', 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	padding: 50px;
+	
+}
+
+header, footer, section, nav, main, div, aside{
+	display: block;
+	padding: 10px;
+	
+	/* curved border radius */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	}
+
+img{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#wrapper{
+	background-image: repeating-linear-gradient(lightblue, pink);
+	background-color:hsl(0, 100%, 90%);
+	padding: 20px 20px 20px 20px;
+	margin-left: auto;
+    margin-right: auto;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+header{
+	height: 400px;
+    background-image: repeating-linear-gradient(pink, hsla(89, 43%, 51%, 0.3));
+	background-color:hsl(0, 100%, 90%);
+}
+
+header img {
+	margin: auto;
+	height: 200px;
+	width: 900px;
+
+}
+
+header h1 {
+    font-size: 80px;
+        font-family: 'elephant';
+    
+}
+header h3 {
+    font-size: 30px;
+    font-family: 'elephant';
+
+}
+h2 {
+    font-size: 50px;
+    font-family: 'elephant'
+}
+
+p {
+    font-size: 20px;
+    font-family: 'elephant'
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #000;
+}
+
+nav a.active {
+    background-color: pink;
+}
+
+main {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-family: 'arial black';
+    font-size: 13.5px;
+
+
+
+}
+
+
+main img{
+	border: none;
+	height: 500px;
+	width: 750px;
+	display: block;
+    margin: auto;
+}
+
+
+
+footer {
+    padding: 1px;
+}
+.f1{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	margin-left: 40px;
+    margin-right: 40px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+	float: left;
+	
+}
+
+.f2{
+	background-color: white;
+	padding: 50px 20px 20px 20px;
+	margin-top: 180px;
+	margin-left: 40px;
+    margin-right: 40px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+	float: right;
+}
+
+.f3{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	margin-left: 40px;
+    margin-right: 40px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+	float: left;
+}
+
+div .advocacy{
+	background-image: repeating-linear-gradient(pink, lightblue);
+	background-color:hsl(0, 100%, 90%);
+	padding: 20px 20px 20px 20px;
+	margin-left: 20px;
+    margin-right: 20px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+	
+
+
+div{
+	background-image: repeating-linear-gradient(lightblue, pink);
+	background-color:hsl(0, 100%, 90%);
+	padding: 30px 30px 30px 30px;
+	margin-left: 40px;
+    margin-right: 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+section{
+	background-image: repeating-linear-gradient(lightblue, pink);
+	background-color:hsl(0, 100%, 90%);
+	padding: 30px 30px 30px 30px;
+	margin-left: 40px;
+    margin-right: 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+
+	section:hover {
+	background-image: repeating-linear-gradient(lightgreen,lightyellow,white,lightblue);
+	background-color:hsl(0, 100%, 90%);
+	padding: 30px 30px 30px 30px;
+	margin-left: 40px;
+    margin-right: 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+.emphasize {
+	font-family: 'Calligraphic';
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+	
+	p.advocacy {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+	padding: 30px 30px 30px 30px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+	text-align: center;
+    font-size: 50x;
+
+	
+}
+
+p.advocacy:hover {
+        width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(360deg);
+
+}
+
+
+p.img:hover {
+        width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(360deg);
+
+}
+
+
+=====================================================
+section.mem:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	
+	
+section .mem:img  {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover07 figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}

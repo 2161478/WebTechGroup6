@@ -1,0 +1,10 @@
+Group 6 9325B 1-2:30 W.S.
+
+NOTE: 
+The CSS files in the styles folder of each advocacy is the css file for the SECOND DELIVERABLE
+copy the CSS file from the altstyles folder for the THIRD DELIVERABLE
+
+LINKS: 
+Advocacy 1 >> 9325bgroup6a1.cf
+Advocacy 2 >> 9325bgroup6a2.cf
+Advocacy 3 >> 9325bgroup6a3.cf

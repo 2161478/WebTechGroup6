@@ -1,17 +1,14 @@
 	html, body
 	{
 		height: 100%;
+		background-image: url("../images/rb.jpg");
+	background-color: lightblue;
 	}
 	
 	body
 	{
-		margin: 0px;
-		padding: 0px;
-		background: #181818;
-		font-family: 'Times New Roman';
-		font-size: 12pt;
-		font-weight: 200;
-		color: #FFF;
+		background-image: url("../images/rb.jpg");
+		background-color: lightblue;
 	}
 	
 	
@@ -38,6 +35,7 @@
 		overflow: hidden;
 		margin: 0em auto;
 		width: 1200px;
+		
 	}
 	
 
@@ -91,15 +89,40 @@
 	{
 		position: relative;
 		padding: 5em 0em 0em 0em;
-		background: #111111 url(../images/images.jpg) no-repeat center;
-		background-size: cover;
+		background-image: url("../images/rb.jpg");
+		background-color: lightblue;
 	}
 
 	#header
 	{
 		position: relative;
 		padding: 5em 0em 10em 0em;
+		
 	}
+	
+	
+	div.menu li {
+    float: left;
+}
+
+div.menu  li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div.menu  li a:hover:not(.active) {
+    background-color: #000;
+}
+
+div.menu  a.active {
+    background-color: pink;
+}
 
 /*********************************************************************************/
 /* Menu                                                                          */
@@ -110,6 +133,7 @@
 		position: absolute;
 		top: 4.5em;
 		right: 0;
+		
 	}
 	
 	#menu ul
@@ -150,11 +174,13 @@
 	{
 		padding: 5em 0em;
 		background: rgba(0,0,0,.8);
+		
 	}
 
 	#banner
 	{
 		text-align: center;
+
 	}
 	
 	#banner .title h2
@@ -174,46 +200,12 @@
 		border-radius: 6px;
 		font-weight: 700;
 		font-size: 1em;
+
 		
 	}
 	
 	.banner
 	{
 		margin-bottom: 5em;
+
 	}
-
-	
-	
-	/*
-	body {
-    font-family: Verdana,sans-serif;
-    font-size: 0.9em;
-}
-
-header, footer {
-    padding: 10px;
-    color: white;
-    background-color: black;
-}
-
-section {
-    margin: 5px;
-    padding: 10px;
-    background-color: lightgrey;
-}
-
-main {
-    margin: 5px;
-    padding: 10px;
-    background-color: white;
-}
-
-nav ul {
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 5px;
-}
-	*/

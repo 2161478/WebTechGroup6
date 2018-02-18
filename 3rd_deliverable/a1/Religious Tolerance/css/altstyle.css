@@ -1,7 +1,7 @@
 body{
-	background-image: url("../images/images.jpg");
-	background-color: lightblue;
 	
+	background-image: url("../images/original.gif");
+	background-color: repeating-linear-gradient(lightblue, pink)
 	margin: 0 auto;
 	width: 960px;
 	font: 14px/20px 'PusabRegular', 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif;
@@ -25,7 +25,7 @@ img{
 }
 
 #wrapper{
-	background-image: repeating-linear-gradient(white);
+	background-image: repeating-linear-gradient(lightblue, pink);
 	background-color:hsl(0, 100%, 90%);
 	padding: 20px 20px 20px 20px;
 	margin-left: auto;
@@ -35,8 +35,8 @@ img{
 }
 
 header{
-	height: 300px;
-    background-image: repeating-linear-gradient(darkgray,white, hsla(89, 43%, 51%, 0.3));
+	height: 400px;
+    background-image: repeating-linear-gradient(pink, hsla(89, 43%, 51%, 0.3));
 	background-color:hsl(0, 100%, 90%);
 }
 
@@ -48,48 +48,32 @@ header img {
 }
 
 header h1 {
-    font-size: 30px;
+    font-size: 80px;
         font-family: 'elephant';
     
 }
 header h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'elephant';
 
 }
 h2 {
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'elephant'
 }
 
-nav {
-	background-image: linear-gradient(hsla(89, 43%, 51%, 0.3), grey,white);
-	padding: 0;
-    -webkit-box-shadow: 3px 3px 7px #777;
-	-moz-box-shadow: 3px 3px 7px #777;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;    
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;	
+p {
+    font-size: 20px;
+    font-family: 'elephant'
 }
 
 nav li {
     float: left;
-    	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 }
 
 nav li a {
     display: block;
-    color: white;
+    color: pink;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -107,12 +91,11 @@ nav a.active {
 }
 
 main {
-    margin: auto;
+    margin: 5px;
     padding: 10px;
-    background-image: repeating-linear-gradient(white,grey,white,grey);
-    font-family: 'courier new';
+    background-color: white;
+    font-family: 'arial black';
     font-size: 13.5px;
-    font-style:oblique;
 
 
 
@@ -127,18 +110,11 @@ main img{
     margin: auto;
 }
 
-main img{
-	border: none;
-	height: 500px;
-	width: 750px;
-	display: block;
-    margin: auto;
+
+
+footer {
+    padding: 1px;
 }
-
-
-
-
-
 .f1{
 	background-color: white;
 	padding: 20px 20px 20px 20px;
@@ -147,18 +123,18 @@ main img{
 	-webkit-box-shadow: 3px 3px 7px #777;
 	-moz-box-shadow: 3px 3px 7px #777;
 	float: left;
-    font-family: 'arial';
 	
 }
 
 .f2{
 	background-color: white;
-	padding: 20px 20px 20px 20px;
+	padding: 50px 20px 20px 20px;
+	margin-top: 180px;
 	margin-left: 40px;
     margin-right: 40px;
 	-webkit-box-shadow: 3px 3px 7px #777;
 	-moz-box-shadow: 3px 3px 7px #777;
-	float: left;
+	float: right;
 }
 
 .f3{
@@ -172,7 +148,7 @@ main img{
 }
 
 div .advocacy{
-	background-image: repeating-linear-gradient(grey, white);
+	background-image: repeating-linear-gradient(pink, lightblue);
 	background-color:hsl(0, 100%, 90%);
 	padding: 20px 20px 20px 20px;
 	margin-left: 20px;
@@ -181,13 +157,11 @@ div .advocacy{
 	-moz-box-shadow: 3px 3px 7px #777;
 }
 
-.advocacy{
-	text-align: center;
-}
+	
 
 
 div{
-	background-image: repeating-linear-gradient(grey, white);
+	background-image: repeating-linear-gradient(lightblue, pink);
 	background-color:hsl(0, 100%, 90%);
 	padding: 30px 30px 30px 30px;
 	margin-left: 40px;
@@ -199,7 +173,7 @@ div{
 }
 
 section{
-	background-image: repeating-linear-gradient(grey, white);
+	background-image: repeating-linear-gradient(lightblue, pink);
 	background-color:hsl(0, 100%, 90%);
 	padding: 30px 30px 30px 30px;
 	margin-left: 40px;
@@ -211,17 +185,73 @@ section{
 }
 
 
-
+	section:hover {
+	background-image: repeating-linear-gradient(lightgreen,lightyellow,white,lightblue);
+	background-color:hsl(0, 100%, 90%);
+	padding: 30px 30px 30px 30px;
+	margin-left: 40px;
+    margin-right: 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
 
 .emphasize {
 	font-family: 'Calligraphic';
-	font-size: 25px;
+	font-size: 20px;
 	font-style: oblique;
 	font-weight: bold;
 	text-align: center;
 }
 
-footer {
-    padding: 1px;
+
+	
+	p.advocacy {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+	padding: 30px 30px 30px 30px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+	text-align: center;
+    font-size: 50x;
+
+	
 }
 
+p.advocacy:hover {
+        width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(360deg);
+
+}
+
+
+p.img:hover {
+        width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(360deg);
+
+}
+
+
+=====================================================
+section.mem:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	
+	
+section .mem:img  {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover07 figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
